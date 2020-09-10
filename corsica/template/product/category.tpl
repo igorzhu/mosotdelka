@@ -1,6 +1,10 @@
 <?php echo $header; ?>
 <!-- This comment -->
+<<<<<<< HEAD
 <!-- Second comment -->
+=======
+<!-- Comment from Igor -->
+>>>>>>> 56eccff0e3fdc4e192526098a9da90952a13892f
 <div class="container">
    <ul class="breadcrumb">
       <?php foreach ($breadcrumbs as $breadcrumb) { ?>
