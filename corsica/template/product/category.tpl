@@ -1,5 +1,6 @@
 <?php echo $header; ?>
 <!-- This comment -->
+<!-- Comment from Igor -->
 <div class="container">
    <ul class="breadcrumb">
       <?php foreach ($breadcrumbs as $breadcrumb) { ?>
