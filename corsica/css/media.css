@@ -9,15 +9,20 @@
     }
 
     .preheader {
-        display: none;
         position: absolute;
         background: #FCFCFC;
         box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.08);
         height: 100%;
         width: 80%;
+        left: -81%;
         min-width: 280px;
         padding-top: 100px;
         z-index: 9999;
+        transition: left 0.5s;
+    }
+
+    .preheader.visible {
+        left: 0;
     }
 
     .preheader .wrapper {
@@ -410,5 +415,9 @@
 
     header {
         margin-bottom: 0;
+    }
+
+    .bottom-modal.mob {
+        display: none;
     }
 }
