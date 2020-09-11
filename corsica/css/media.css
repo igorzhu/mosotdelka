@@ -153,6 +153,7 @@
 
     .alphavite-nav-list{
         flex-wrap: nowrap;
+        overflow: auto;
     }
 
     .brend-nav-list {
