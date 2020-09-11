@@ -1,5 +1,7 @@
 <?php echo $header; ?>
 <!-- This comment -->
+<!-- Second -->
+<!-- Comment from Igor -->
 
 <!-- Second comment -->
 
