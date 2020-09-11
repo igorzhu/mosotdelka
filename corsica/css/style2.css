@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.mob {
+    display: none;
+}
+
 /* section */
 .section {
     padding: 60px 0;

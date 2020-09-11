@@ -97,22 +97,36 @@
            					</li>
            				</ul>
            			</div>
-           			<div class="preheader-list_item item">
-           				<div class="preheader_item-list list">
-           					<div class="preheader_item-list_item item">
-           						<span class="span-icon location-icon"></span>
-           						<span>г. Москва ул. Нагатинская д.3Б,<br>офис № 315</span>
-           					</div>
-           					<div class="preheader_item-list_item item">
-           						<span class="span-icon time-icon"></span>
-           						<span>Пн-Пт: 8:00 - 19:00<br>(офис, склад)</span>
-           					</div>
-           					<div class="preheader_item-list_item item">
-           						<span>Сб-Вс: 9:00 - 16:00<br>(склад выходной)</span>
-           						<span class="span-icon drop-down-button-icon"></span>
-           					</div>
-           				</div>
-           			</div>
+					<div class="preheader-list_item item">
+						<div class="preheader_item-list list">
+							<div class="preheader_item-list_item item">
+								<span class="span-icon location-icon"></span>
+								<span>г. Москва ул. Нагатинская д.3Б,<br>офис № 315</span>
+							</div>
+							<div class="preheader_item-list_item item">
+								<span class="span-icon time-icon"></span>
+								<span>Пн-Пт: 8:00 - 19:00<br>(офис, склад)</span>
+							</div>
+							<div class="preheader_item-list_item item">
+								<span>Сб-Вс: 9:00 - 16:00<br>(склад выходной)</span>
+								<span class="span-icon drop-down-button-icon"></span>
+							</div>
+							<div class="mob">
+								<div class="preheader_item-list_item item">
+									<span class="span-icon phone2-icon"></span>
+									<a href="tel:+74956458085">+7 (495) 645-80-85</a>
+								</div>
+								<div class="preheader_item-list_item item">
+									<span class="span-icon phone2-icon"></span>
+									<a href="tel:+79167789988">+7 (916) 778-99-88</a>
+								</div>
+								<div class="preheader_item-list_item item">
+									<span class="span-icon email-icon"></span>
+									<a href="mailto:info@mosotdelka.ru">info@mosotdelka.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
            		</div>
 
            	</div>
