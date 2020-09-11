@@ -152,23 +152,33 @@
     }
 
     .alphavite-nav-list{
-        display: none;}
+        flex-wrap: nowrap;
+    }
 
     .brend-nav-list {
         display: block;
         width: 100%;
+        white-space: nowrap;
     }
     .brend-nav-list_item {
-        float: left;
+        display: inline-block;
+        float: none;
     }
 
     .navbar_menu{
-        display: none;}
+        overflow: auto;
+    }
     .navbar-menu_item a {
         display: block;
         width: max-content;
+        text-transform: uppercase;
     }
     .navbar-menu_item {
+        margin: 0 30px 0 0;
+
+    }
+
+    .navbar-menu_item:last-child {
         margin: 0;
     }
 
@@ -383,5 +393,21 @@
 
     .mob .phone2-icon, .mob .email-icon {
         left: -21px;
+    }
+
+    .country-item:hover .country-nav-list {
+        display: none;
+    }
+
+    .brend-nav-list_item.has-dropdown:hover .brend-nav-list__drop-down {
+        display: none;
+    }
+
+    .brend-nav-list_item.has-dropdown:hover::before, .brend-nav-list_item.has-dropdown:hover::after {
+        display: none;
+    }
+
+    header {
+        margin-bottom: 0;
     }
 }
