@@ -72,8 +72,28 @@
                         <?php } ?>
                     </div>
                     <?php } ?>
-                    <h3 style="margin-bottom:30px">Местоположение компании</h3>
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c20cbae62a0180b40bf629d616ac92d8a481e44b239b193e97be87fdcb97ede&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    <div style="display: table; width: 100%;">
+                    <div style="display: table-row;">
+                    <div style="display: table-cell; width: 50%;">
+                    <h3 style="margin-bottom:10px;">Офис</h3>
+                    </div>
+                    <div style="display: table-cell; width: 15px;">
+                    </div>
+                    <div style="display: table-cell;">
+                    <h3 style="margin-bottom:10px;">Склад</h3>
+                    </div>
+                    </div>
+                    <div style="display: table-row;">
+                    <div style="display: table-cell; table-cell;border: 1px solid #bbc2c6;">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c20cbae62a0180b40bf629d616ac92d8a481e44b239b193e97be87fdcb97ede&width=100%25&height=400&lang=ru_RU&scroll=true"></script>
+                    </div>
+                    <div style="display: table-cell; width: 15px;">
+                    </div>
+                    <div style="display: table-cell;border: 1px solid #bbc2c6;">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A64f2cc172a55a6d9a3c7aeaf58a3753db169490f0575416f36c8fb89ff701de1&width=100%&height=400&lang=ru_RU&scroll=true"></script>
+                    </div>
+                    </div>
+                    </div>
                     <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
                         <fieldset>
                             <h3 style="margin:30px 0"><?php echo $text_contact; ?></h3>
