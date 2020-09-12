@@ -43,6 +43,8 @@
             <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css?v1.2.0" rel="stylesheet" media="screen" />
             <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js?v1.2.0" type="text/javascript"></script>
             <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+            <link href="catalog/view/javascript/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+            <script src="catalog/view/javascript/jquery.fancybox.min.js" type="text/javascript"></script>
             <link href="catalog/view/theme/corsica/stylesheet/stylesheet.css" rel="stylesheet">
             <?php foreach ($styles as $style) { ?>
             <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="    <?php echo $style['media']; ?>" />
@@ -100,8 +102,10 @@
 					<div class="preheader-list_item item">
 						<div class="preheader_item-list list">
 							<div class="preheader_item-list_item item">
-								<span class="span-icon location-icon"></span>
-								<span>г. Москва ул. Нагатинская д.3Б,<br>офис № 315</span>
+							    <a data-fancybox="" data-type="iframe" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae8177bbe1099d3c5534c42b2a855ed780f779d50189b14b8038608ecd9db2790&amp;source=constructor" href="javascript:;">
+								    <span class="span-icon location-icon"></span>
+								    <span>г. Москва ул. Нагатинская д.3Б,<br>офис № 315</span>
+								</a>
 							</div>
 							<div class="preheader_item-list_item item">
 								<span class="span-icon time-icon"></span>
