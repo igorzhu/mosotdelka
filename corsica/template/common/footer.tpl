@@ -107,7 +107,11 @@
 
 			<div class="footer-list_item item">
 				<ul class="footer_menu_ul-2">
-					<li class="footer_menu_ul-2_item"><span class="span-icon location-icon"></span>г. Москва ул. Нагатинская д.3Б, офис № 315</li>
+					<li class="footer_menu_ul-2_item">
+					    <a data-fancybox data-type="iframe" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae8177bbe1099d3c5534c42b2a855ed780f779d50189b14b8038608ecd9db2790&source=constructor" href="javascript:;">
+					        <span class="span-icon location-icon"></span>г. Москва ул. Нагатинская д.3Б, офис № 315
+					    </a>
+					</li>
 					<li class="footer_menu_ul-2_item"><span class="span-icon time-icon"></span>
 						<ul class="footer_menu_ul-2_sub">
 							<li class="footer_menu_ul-2_sub_item">Пн-Пт: 8:00 - 19:00<br>(офис, склад)</li>
