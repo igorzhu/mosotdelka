@@ -45,6 +45,8 @@
             <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
             <link href="catalog/view/javascript/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
             <script src="catalog/view/javascript/jquery.fancybox.min.js" type="text/javascript"></script>
+			 <link href="catalog/view/javascript/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" />
+			 <script src="catalog/view/javascript/malihu-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
             <link href="catalog/view/theme/corsica/stylesheet/stylesheet.css" rel="stylesheet">
             <?php foreach ($styles as $style) { ?>
             <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="    <?php echo $style['media']; ?>" />

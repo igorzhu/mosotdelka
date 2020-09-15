@@ -1392,7 +1392,21 @@ header {
     text-decoration: none;
 }
 
+.bottom-modal__inner {
+    padding: 20px 0;
+}
+
+.modal-brend-list-wrapper {
+    overflow: auto;
+    max-height: 250px;
+}
+
 .modal-brend-list li a {
     font-size: 14px;
     line-height: 20px;
+}
+
+html.fixed {
+    position: fixed;
+    width: 100%;
 }
