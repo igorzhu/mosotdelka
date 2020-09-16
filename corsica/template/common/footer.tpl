@@ -137,7 +137,7 @@
 </footer>
 <link href="catalog/view/theme/corsica/css/slick.css" rel="stylesheet">
 <script src="catalog/view/theme/corsica/js/slick.js"></script>
-<script src="catalog/view/theme/corsica/js/custom.js"></script>
+<script src="catalog/view/theme/corsica/js/mosotdelka.js"></script>
 
 
 
@@ -147,5 +147,10 @@
 <!-- /Yandex.Metrika counter -->
 <script src="catalog/view/theme/corsica/js/main.js"></script>
 </div>
+<script type="text/javascript">
+    $(function(){
+        $('body').mosotdelka();
+    });
+</script>
 </body>
 </html>
