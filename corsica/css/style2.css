@@ -516,7 +516,9 @@ header {
 }
 .navbar-menu_item a{
     font-size: 12px;
-    line-height: 16px;}
+    line-height: 16px;
+    text-transform: uppercase;
+}
 
 /* END navbar */
 /* END Header */
