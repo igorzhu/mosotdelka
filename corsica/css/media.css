@@ -26,11 +26,14 @@
     }
 
     .preheader .wrapper {
-        padding: 0;
+        height: 100%;
+        overflow: auto;
+
     }
 
     .preheader-list {
         flex-direction: column;
+        overflow: hidden;
     }
 
     .preheader_menu {
